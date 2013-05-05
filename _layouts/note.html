@@ -12,7 +12,7 @@
 	<nav>
 	<span><a title="home page" class="" href="{{ site.url }}/">home</a></span>
 	{% for cat in site.categories %}
-	<span><a title={{ cat[0] }} class="" href="{{ site.url }}/">{{ cat[0] }}</a></span>
+	<span><a title="{{ cat[0] }}" class="" href="{{ site.url }}/">{{ cat[0] }}</a></span>
 	{% endfor %}
 	</nav>
 	<article class="content">
