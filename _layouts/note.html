@@ -8,18 +8,19 @@
 
 <body>
   <div id="container">
-    <div id="main" role="main">
 	<nav>
-	<span><a title="home page" class="" href="{{ site.url }}/">home</a></span>
-	{% for cat in site.categories %}
-	<span><a title="{{ cat[0] }}" class="" href="{{ site.url }}/">{{ cat[0] }}</a></span>
-	{% endfor %}
+	  <span><a title="home page" class="" href="{{ site.url }}/">HOME</a></span>
+	  <span><a title="categories" class="" href="{{ site.url }}/category/">CATEGORIES</a></span>
+      <span><a title="vitae" class="" href="{{ site.url }}/vitae/">VITAE</a></span>
 	</nav>
-	<article class="content">
-	{{ content }}
-	</article>
+	<div class="snapshot">
+      {% for post in  %}
+      <article>
+        {% include article.html %}
+      </article>
+      {% endfor %}
+    </div>
   </div>
-</div>
   <footer>
     <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://elan2wang.github.io/">Elan Wang</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
   </footer>
