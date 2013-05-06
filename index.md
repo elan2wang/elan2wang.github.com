@@ -1,6 +1,6 @@
 ---
 layout: home
-avatar: no
+avatar: yes
 
 ---
 

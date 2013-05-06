@@ -13,13 +13,9 @@
 	  <span><a title="categories" class="" href="{{ site.url }}/category/">CATEGORIES</a></span>
       <span><a title="vitae" class="" href="{{ site.url }}/vitae/">VITAE</a></span>
 	</nav>
-	<div class="snapshot">
-      {% for post in  %}
-      <article>
-        {% include article.html %}
-      </article>
-      {% endfor %}
-    </div>
+	<article class="content">
+      {{ content }}
+    </article>
   </div>
   <footer>
     <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://elan2wang.github.io/">Elan Wang</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
