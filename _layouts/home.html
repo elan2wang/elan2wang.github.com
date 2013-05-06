@@ -35,9 +35,9 @@
   <div class="container">
   <h1 class="sitename">Elan Blog</h1>
   <ul class="nav pills">
-  <li><a href="/">Home</a></li>
-  <li><a href="/">note</a></li>
-  <li><a href="/">life</a></li>
+  <li><a href="{{ site.url}}/">Home</a></li>
+  <li><a href="{{ site.url}}/note/">note</a></li>
+  <li><a href="{{ site.url}}/life/">life</a></li>
   </ul>
 {% if page.avatar %} <p><img src="/image/me.png" title="Elan Wang" align="right" /></p> {% endif %}
 {{ content }}
