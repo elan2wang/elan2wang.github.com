@@ -6,7 +6,7 @@ layout: note
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <article>
-{% include article.html %}
+{% include post.html %}
 </article>
 {% endfor %} 
 
