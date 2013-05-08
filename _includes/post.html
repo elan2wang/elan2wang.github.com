@@ -1,11 +1,12 @@
-<section class="post">
-{{ content }}
-</section>
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<article>
+  {{ post.content }}
+</article>
 <section class="meta">
   <span class="author">
     <a href="https://github.com/elan2wang">{{ site.author }}</a>
   </span>
   <span class="time">
-    /<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   </span>
 </section>
