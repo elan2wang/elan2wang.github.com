@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: blog
 title: Thinkings about filter design
 categories: Lucene
 ---
