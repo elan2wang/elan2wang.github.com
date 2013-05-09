@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Thinkings about filter design
+title: Thinkings about filter design1
 categories: Lucene
 ---
 
