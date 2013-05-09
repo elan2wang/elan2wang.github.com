@@ -10,7 +10,9 @@ layout: blog
 {% assign post_date = post.date %}
 {% assign post_url = post.url %}
 {% assign post_title = post.title %}
-{% include post.html %}
+<article>
+  {% include post.html %}
+</article>
 {% endfor %}
 
 <!-- Pagination links -->
