@@ -16,10 +16,10 @@ nav {
 	margin-left:0;
 	margin-bottom:20px;
 	list-style:none;
+	float:left;
 }
 
 nav a {
-	float:left;
 	zoom:1px;
 	display:block;
 	background-color:#eee;
