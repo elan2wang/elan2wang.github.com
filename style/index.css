@@ -34,18 +34,18 @@ nav {
 }
 
 nav a {
-	background-color:#eee;
 	line-height:14px;
 	margin-right:4px;
 	border-radius:5px;
 	padding:6px 12px;
-	text-decoration:none;
 	color:#b9221f;
+	text-decoration:none;
+	background-color:#eee;
 }
 
 nav a:hover {
-	text-decoration:none;
 	color:#fff;
+	text-decoration:none;
 	background-color:#b9221f;
 }
 
@@ -58,5 +58,6 @@ p img {
 
 p a {
 	color:#b9221f;
+	text-decoration:none;
 	border-bottom:1px dashed #bbb;
 }
