@@ -43,8 +43,8 @@ blockquote {
 }
 
 blockquote p {
-	font-size:0.8em;
-	font-weight:0.8em;
-	line-height:0.8em;
+	font-size:13px;
+	font-weight:300;
+	line-height:25px;
 }
 
