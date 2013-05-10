@@ -30,6 +30,7 @@ footer p {
 }
 
 .nav {
+	display:block;
 margin-left:0;
 margin-bottom:20px;
 list-style:none;
