@@ -15,7 +15,7 @@ body{
 }
 
 header {
-	margin-top:40px 15px;
+	margin-top:80px 15px;
 	font-size:30px;
 	font-weight:700;
 	line-height:60px;
@@ -28,11 +28,10 @@ footer p {
 nav {
 	margin-left:0;
 	margin-bottom:20px;
-	display:block;
 }
 
 nav a {
-	zoom:1px;
+	float:left;
 	display:block;
 	width:auto;
 	background-color:#eee;
@@ -41,6 +40,7 @@ nav a {
 	border-radius:5px;
 	padding:8px 12px;
 	text-decoration:none;
+	zoom:1px;
 }
 
 nav a:hover {
