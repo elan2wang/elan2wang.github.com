@@ -4,8 +4,6 @@
 	color:#fff;
 	text-transform:uppercase;
 	background-color:#999;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
 	border-radius:3px;
 	padding:1px 3px 2px;
 }
@@ -38,9 +36,10 @@ ol.linenums li {
 }
 
 blockquote {
-	border-left:5px solid #3a87ad;
 	margin:10px 0 10px;
 	padding:0 0 0 15px;
+	border-radius:3px;
+	border-left:5px solid #3a87ad;
 }
 
 blockquote p {
