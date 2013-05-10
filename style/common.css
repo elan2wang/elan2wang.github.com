@@ -38,13 +38,13 @@ ol.linenums li {
 
 blockquote {
 	border-left:5px solid #eee;
-	margin:0 0 30px;
+	margin:10px 0 10px;
 	padding:0 0 0 15px;
 }
 
 blockquote p {
-	font-size:13px;
-	font-weight:300;
-	line-height:25px;
+	font-size:0.8em;
+	font-weight:0.8em;
+	line-height:0.8em;
 }
 
