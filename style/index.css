@@ -15,7 +15,8 @@ body{
 }
 
 header {
-	margin-top:80px 15px;
+	margin-top:80px;
+	margin-bottom:20px;
 	font-size:30px;
 	font-weight:700;
 	line-height:60px;
@@ -28,7 +29,8 @@ footer p {
 nav {
 	margin-left:0;
 	margin-bottom:20px;
-	padding:8px 12px;
+	padding-top:12px;
+	padding-bottom:12px;
 }
 
 nav a {
