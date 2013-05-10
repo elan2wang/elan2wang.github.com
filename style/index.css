@@ -33,11 +33,7 @@ nav {
 	margin-bottom:20px;
 }
 
-nav span {
-	display:block;
-}
-
-nav span a {
+nav a {
 	display:block;
 	background-color:#eee;
 	line-height:14px;
@@ -48,7 +44,7 @@ nav span a {
 	zoom:1px;
 }
 
-nav span a:hover {
+nav a:hover {
 	text-decoration:none;
 	color:#fff;
 	background-color:#b9221f;
