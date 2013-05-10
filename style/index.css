@@ -21,6 +21,10 @@ header {
 	line-height:60px;
 }
 
+article {
+	margin-bottom:10px;
+}
+
 footer p {
 	text-align: center;	
 }
