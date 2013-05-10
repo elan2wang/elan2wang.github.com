@@ -29,14 +29,11 @@ nav {
 }
 
 nav a {
-	display:block;
 	background-color:#eee;
 	line-height:14px;
 	margin:2px 2px 2px 0;
 	border-radius:5px;
 	padding:8px 12px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
 	text-decoration:none;
 	color:#b9221f;
 }
