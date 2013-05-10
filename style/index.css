@@ -16,19 +16,18 @@ nav {
 	margin-left:0;
 	margin-bottom:20px;
 	list-style:none;
-	float:left;
 }
 
 nav a {
+	float:left;
 	zoom:1px;
 	display:block;
 	background-color:#eee;
 	line-height:14px;
-	margin-right:2px;
-	margin-top:2px;
-	margin-bottom:2px;
+	margin:2px 2px 0 2px;
 	border-radius:5px;
 	padding:8px 12px;
+	text-decoration:none;
 }
 
 nav a:hover {
