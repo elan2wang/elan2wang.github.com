@@ -29,37 +29,25 @@ footer p {
 	text-align: center;	
 }
 
-.nav {
+nav {
+	margin-bottom:20px;
+}
+
+nav a {
 	display:block;
-margin-left:0;
-margin-bottom:20px;
-list-style:none;
+	background-color:#eee;
+	line-height:14px;
+	margin:2px 2px 2px 0;
+	border-radius:5px;
+	padding:8px 12px;
+	text-decoration:none;
+	zoom:1px;
 }
 
-.nav>li>a {
-display:block;
-background-color:#eee;
-}
-
-.nav>li>a:hover {
-text-decoration:none;
-color:#fff;
-background-color:#b9221f;
-}
-
-.pills {
-zoom:1px;
-}
-
-.pills>li>a {
-margin-right:2px;
-line-height:14px;
-margin-top:2px;
-margin-bottom:2px;
--webkit-border-radius:5px;
--moz-border-radius:5px;
-border-radius:5px;
-padding:8px 12px;
+nav a:hover {
+	text-decoration:none;
+	color:#fff;
+	background-color:#b9221f;
 }
 
 p img {

@@ -11,11 +11,11 @@
 <body>
   <div class="container">
     <header>Elan Blog</header>
-    <ul class="nav pills">
-      <li><a href="{{ site.url}}/">Home</a></li>
-      <li><a href="{{ site.url}}/note/">note</a></li>
-      <li><a href="{{ site.url}}/">life</a></li>
-    </ul>
+    <nav>
+      <span><a href="{{ site.url}}/">Home</a></span>
+      <span><a href="{{ site.url}}/note/">note</a></span>
+      <span><a href="{{ site.url}}/">life</a></span>
+    </nav>
 	<article>
     {% if page.avatar %} <p><img src="/images/me.png" title="Elan Wang" align="right" /></p> {% endif %}
     {{ content }}
