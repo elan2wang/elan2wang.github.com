@@ -16,8 +16,17 @@ nav {
 	margin-left:0;
 	margin-bottom:20px;
 	list-style:none;
+}
+
+nav a {
 	display:block;
 	background-color:#eee;
+}
+
+nav a:hover {
+	text-decoration:none;
+	color:#fff;
+	background-color:#b9221f;
 }
 
 .container {
