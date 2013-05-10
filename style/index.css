@@ -16,6 +16,7 @@ nav {
 	margin-left:0;
 	margin-bottom:20px;
 	list-style:none;
+	float:left;
 }
 
 nav a {
