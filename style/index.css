@@ -20,12 +20,15 @@ nav {
 
 nav a {
 	float:left;
+	zoom:1px;
 	display:block;
 	background-color:#eee;
-	margin-right:2px;
 	line-height:14px;
+	margin-right:2px;
 	margin-top:2px;
 	margin-bottom:2px;
+	border-radius:5px;
+	padding:8px 12px;
 }
 
 nav a:hover {
