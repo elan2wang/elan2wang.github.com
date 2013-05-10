@@ -29,6 +29,7 @@ nav {
 	margin-left:0;
 	margin-bottom:20px;
 	float:left;
+	display:list-item;
 }
 
 nav a {
