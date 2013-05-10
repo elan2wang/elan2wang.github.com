@@ -16,8 +16,10 @@
       <span><a href="{{ site.url}}/note/">note</a></span>
       <span><a href="{{ site.url}}/">life</a></span>
     </nav>
-   {% if page.avatar %} <p><img src="/images/me.png" title="Elan Wang" align="right" /></p> {% endif %}
-   {{ content }}
+	<article>
+    {% if page.avatar %} <p><img src="/images/me.png" title="Elan Wang" align="right" /></p> {% endif %}
+    {{ content }}
+    </article>
     <footer>
       <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://elan2wang.github.io/">Elan Wang</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
     </footer>
