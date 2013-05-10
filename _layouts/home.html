@@ -6,7 +6,7 @@
   <meta name="author" content="Elan Wang | 王坚"/>
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/style/common.css">
-  <link rel="stylesheet" type="text/css" href="/style/inedx.css">
+  <link rel="stylesheet" type="text/css" href="/style/index.css">
 </head>
 <body>
   <div class="container">
@@ -15,11 +15,11 @@
       <span><a href="{{ site.url}}/">Home</a></span>
       <span><a href="{{ site.url}}/note/">note</a></span>
       <span><a href="{{ site.url}}/">life</a></span>
-    <nav>
+    </nav>
    {% if page.avatar %} <p><img src="/images/me.png" title="Elan Wang" align="right" /></p> {% endif %}
    {{ content }}
     <footer>
-      <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://elan2wang.github.io/">Elan Wang</a> | <span class="label label-info">{{site.time | date_to_string}</span></small></p>
+      <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="http://elan2wang.github.io/">Elan Wang</a> | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
     </footer>
   </div>
 </body>
