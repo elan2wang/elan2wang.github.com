@@ -28,6 +28,7 @@ footer p {
 nav {
 	margin-left:0;
 	margin-bottom:20px;
+	float:left;
 }
 
 nav a {
