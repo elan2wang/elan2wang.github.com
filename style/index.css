@@ -47,6 +47,9 @@ nav a:hover {
 	text-decoration:none;
 	background-color:#b9221f;
 }
+article p {
+	text-align:justify;
+}
 
 p img {
 	display:block;
