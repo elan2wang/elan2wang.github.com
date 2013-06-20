@@ -1,16 +1,17 @@
 body{
-	font-family:Galdeano,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+	margin:0;
+	color:#555;
 	font-size:14px;
 	line-height:30px;
-	color:#555;
 	background:url(../images/bg.gif) 0 0 repeat fixed;
+	font-family:Galdeano,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
 }
 
 .container {
 	width:700px;
+	padding:20px;
 	margin-left:auto;
 	margin-right:auto;
-	padding:20px;
 	background-color: #F8F8F8;
 }
 
