@@ -3,7 +3,7 @@ body{
 	font-size:14px;
 	line-height:30px;
 	color:#555;
-	background-color: #F8F8F8;
+	background:url(../images/bg.gif) 0 0 repeat fixed;
 }
 
 .container {
