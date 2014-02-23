@@ -17,10 +17,13 @@
     <nav>
       <a href="{{ site.url }}">Home</a><a href="{{ site.url }}/#">note</a><a href="{{ site.url }}/note/docs/resume.pdf">resume</a>
     </nav>
-	<article>
-    	  {% if page.avatar %} <p><img src="/images/me.png" title="Jian Wang | 王坚" align="right" /></p> {% endif %}
-    	  {{ content }} 
-    </article>
+    <section>
+      {% if page.avatar %} <p><img src="/images/me.png" title="Jian Wang | 王坚" align="right" /></p> {% endif %}
+      {{ content }} 
+    </section>
+    </section>
+      <a href="UAA">UAA</a>  <a href="bms">BMS</a>  <a href="pmp">PMP</a>
+    </section>
     <footer>
       <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="https://github.com/elan2wang">Jian Wang</a> | <span class="label label-info">{{site.time | date_to_string}}</span></small></p>
     </footer>
