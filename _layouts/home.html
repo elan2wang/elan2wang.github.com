@@ -6,7 +6,7 @@
   <meta name="author" content="Jian Wang | 王坚"/>
   <meta name="keywords" content="Jian Wang | 王坚 | Machine Learning | Artificial Intelligence | Algorithm"/>
   <meta name="description" conetnt="Jian Wang | 王坚 | Machine Learning | Artificial Intelligence | Algorithm"/>
-  
+
   <link rel="stylesheet" type="text/css" href="/style/common.css">
   <link rel="stylesheet" type="text/css" href="/style/index.css">
   {% include google_analytics.html %}
@@ -15,11 +15,11 @@
   <div class="container">
     <header>Jian Wang</header>
     <nav>
-      <a href="{{ site.url }}">Home</a><a href="{{ site.url }}/#">note</a><a href="{{ site.url }}/note/docs/resume.pdf">resume</a>
+      <a href="{{ site.url }}">Home</a><a href="{{ site.url }}/note">note</a><a href="{{ site.url }}/note/docs/resume.pdf">resume</a>
     </nav>
     <section>
       {% if page.avatar %} <p><img src="/images/me.png" title="Jian Wang | 王坚" align="right" /></p> {% endif %}
-      {{ content }} 
+      {{ content }}
     </section>
     <footer>
       <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright 2012 - {{site.time | date:"%Y"}} by <a href="https://github.com/elan2wang">Jian Wang</a> | <span class="label label-info">{{site.time | date_to_string}}</span></small></p>
